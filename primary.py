@@ -1,5 +1,5 @@
-# author:
-# date:
+# author: Tahlia Jones
+# date: July 22, 2021
 
 from random import randint
 
@@ -29,11 +29,17 @@ print('\n' + 'Task 1' + '\n')
 #
 # WRITE CODE BELOW #
 a = float(input('a = '))
-b =
-c =
-d =
+b = float(input('b = '))
+c = float(input('c = '))
+d = float(input('d = '))
 
 print('a == b |', a == b)
+print('a == b == c', a == b == c)
+print('a > b > c', a > b > c)
+print('a < b < c < d', a < b < c < d)
+print('a != b == c != d', a != b == c != d)
+print('a >= b >= c == d',a >= b >= c == d)
+print('a <= b > c <= d', a <= b > c <= d)
 
 # 2 - if Statements (ONLY USE if STATEMENTS)
 print('\n' + 'Task 2' + '\n')
@@ -54,7 +60,7 @@ print('\n' + 'Task 2' + '\n')
 #
 # WRITE CODE BELOW #
 word1 = input('enter a word: ')
-word2 =
+word2 = input('enter a word: ')
 
 if word1 == word2:
     print(word1, 'and', word2, 'are the same!')
@@ -79,6 +85,23 @@ print('\n' + 'Task 3' + '\n')
 #
 # WRITE CODE BELOW #
 dice1 = randint(1, 6)
+dice2 = randint(2, 6)
+dice3 = randint(3, 6)
+dice4 = randint(4, 6)
+dice5 = randint(5, 6)
+dice6 = randint(6, 6)
+
+even = 2, 4, 6
+odd = 1, 3, 5
+
+if even > odd:
+    print('even')
+elif even < odd:
+    print('odd')
+else:
+    print('you win')
+
+
 
 
 
